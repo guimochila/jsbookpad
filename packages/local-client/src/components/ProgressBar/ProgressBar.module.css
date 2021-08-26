@@ -1,0 +1,26 @@
+.progressBarCover {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  background-color: #fff;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

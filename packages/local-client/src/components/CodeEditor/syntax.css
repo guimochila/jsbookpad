@@ -1,0 +1,138 @@
+.editorWrapper.mtk1 {
+  color: #d4d4d4;
+}
+.editorWrapper.mtk2 {
+  color: #1e1e1e;
+}
+.editorWrapper.mtk3 {
+  color: #000080;
+}
+.editorWrapper.mtk4 {
+  color: #6a9955;
+}
+.editorWrapper.mtk5 {
+  color: #569cd6;
+}
+.editorWrapper.mtk6 {
+  color: #b5cea8;
+}
+.editorWrapper.mtk7 {
+  color: #646695;
+}
+.editorWrapper.mtk8 {
+  color: #c586c0;
+}
+.editorWrapper.mtk9 {
+  color: #9cdcfe;
+}
+.editorWrapper.mtk10 {
+  color: #f44747;
+}
+.editorWrapper.mtk11 {
+  color: #ce9178;
+}
+.editorWrapper.mtk12 {
+  color: #6796e6;
+}
+.editorWrapper.mtk13 {
+  color: #808080;
+}
+.editorWrapper.mtk14 {
+  color: #d16969;
+}
+.editorWrapper.mtk15 {
+  color: #dcdcaa;
+}
+.editorWrapper.mtk16 {
+  color: #4ec9b0;
+}
+.editorWrapper.mtk17 {
+  color: #c586c0;
+}
+.editorWrapper.mtk18 {
+  color: #4fc1ff;
+}
+.editorWrapper.mtk19 {
+  color: #c8c8c8;
+}
+.editorWrapper.mtk20 {
+  color: #cd9731;
+}
+.editorWrapper.mtk21 {
+  color: #b267e6;
+}
+.editorWrapper.mtki {
+  font-style: italic;
+}
+.editorWrapper.mtkb {
+  font-weight: bold;
+}
+.editorWrapper.mtku {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.editorWrapper.mtk100.Identifier.JsxElement.Bracket {
+  color: #0080ff;
+}
+
+.editorWrapper.mtk1000.Identifier.JsxOpeningElement.Bracket {
+  color: #808080;
+  font-weight: bold;
+}
+
+.editorWrapper.mtk1001.Identifier.JsxClosingElement.Bracket {
+  color: #808080;
+  font-weight: lighter;
+}
+
+.editorWrapper.mtk101.Identifier.JsxOpeningElement.Identifier {
+  color: #569cd6;
+}
+
+.editorWrapper.mtk102.Identifier.JsxClosingElement.Identifier {
+  color: #569cd6;
+  font-weight: lighter;
+}
+
+.editorWrapper.mtk103.Identifier.JsxAttribute.Identifier {
+  color: #9cdcfe;
+}
+
+.editorWrapper.mtk104.JsxElement.JsxText {
+  color: darkgoldenrod;
+}
+
+.editorWrapper.mtk105.glyph.Identifier.JsxElement {
+  background: #61dafb;
+  opacity: 0.25;
+}
+
+.editorWrapper.mtk12.Identifier.JsxExpression.JsxClosingElement {
+  color: #ec5f67;
+}
+
+.editorWrapper.mtk12.Identifier.JsxSelfClosingElement {
+  color: #ec5f67;
+}
+.editorWrapper.mtk12.Identifier.VariableStatement.JsxClosingElement {
+  color: #ec5f67 !important;
+}
+.editorWrapper.mtk12.VariableStatement.JsxSelfClosingElement.Identifier {
+  color: #ec5f67;
+}
+.editorWrapper.mtk12.Identifier.JsxAttribute.VariableDeclaration {
+  color: crimson;
+}
+.editorWrapper.mtk12.JsxExpression.VariableStatement {
+  color: #fac863;
+}
+.editorWrapper.mtk12.VariableStatement.JsxSelfClosingElement {
+  color: #ede0e0;
+}
+.editorWrapper.mtk12.VariableStatement.JsxClosingElement {
+  color: #ede0e0;
+}
+.editorWrapper.JsxText {
+  color: #0c141f;
+}

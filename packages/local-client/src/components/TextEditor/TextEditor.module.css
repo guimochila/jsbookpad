@@ -1,0 +1,61 @@
+.textEditor :global(.w-md-editor-bar) svg {
+  display: none;
+}
+
+.textEditor :global(.w-md-editor-bar) {
+  height: 11px;
+  cursor: row-resize;
+  background-color: #37414b;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  position: relative;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+}
+
+.textEditor em {
+  font-style: italic;
+}
+
+.textEditor :global(.wmde-markdown) hr {
+  border-top: 1px solid #dee5ed;
+}
+
+.textEditor :global(.wmde-markdown) ol {
+  list-style: decimal;
+}
+.textEditor :global(.w-md-editor-show-live) {
+  /* Hide menu bar buttons to prevent accidental delete */
+  z-index: 20;
+}
+
+.textEditor :global(.w-md-editor-toolbar) {
+  background-color: #37414b;
+  border-bottom: 1px solid gray;
+}
+
+.textEditor :global(.w-md-editor-toolbar) li button {
+  color: #d4d4d4;
+}
+
+.textEditor :global(.w-md-editor-content) {
+  background-color: #202123;
+}
+
+.textEditor :global(.w-md-editor),
+.textEditor :global(.w-md-editor) :global(.w-md-editor-text-pre) {
+  color: #d4d4d4;
+}
+
+.textEditor :global(.w-md-editor-text-pre) :global(.title),
+.textEditor :global(.w-md-editor-text-pre) :global(.bold) {
+  color: #5ceb8b !important;
+}
+
+.textEditor :global(.wmde-markdown-color code[class*='language-']) {
+  color: #d4d4d4;
+}
+
+.textEditor :global(.token.list.punctuation) {
+  background-color: unset;
+}
