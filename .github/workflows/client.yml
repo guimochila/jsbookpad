@@ -1,8 +1,14 @@
 name: 'Netlify Preview Deploy'
 
 on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'packages/client/**'
   pull_request:
-    types: ['opened', 'edited', 'synchronize']
+    braches:
+      - main
     paths:
       - 'packages/client/**'
 defaults:
