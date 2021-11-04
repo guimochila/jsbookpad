@@ -1,0 +1,28 @@
+name: 'Netlify Preview Deploy'
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'packages/client/**'
+  pull_request:
+    braches:
+      - main
+    paths:
+      - 'packages/client/**'
+defaults:
+  run:
+    working-directory: packages/client
+
+jobs:
+  deploy:
+    name: 'Deploy'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jsmcaga/action-netlify-deploy@master
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
