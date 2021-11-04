@@ -3,7 +3,7 @@ name: 'Netlify Preview Deploy'
 on:
   push:
     branches:
-      - master
+      - '*'
     paths:
       - 'packages/client/**'
   pull_request:
