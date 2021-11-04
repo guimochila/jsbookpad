@@ -112,10 +112,13 @@ export const saveCells = () => {
         },
         body: JSON.stringify({ cells }),
       });
-    } catch (err) {
+    } catch (error) {
+      let message;
+      if (error instanceof Error) message = error.message;
+      else message = String(error);
       dispatch({
         type: ActionType.SAVE_CELLS_ERROR,
-        payload: err.message,
+        payload: message,
       });
     }
   };
