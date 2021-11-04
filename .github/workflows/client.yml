@@ -2,11 +2,6 @@ name: 'Netlify Preview Deploy'
 
 on:
   push:
-    branches:
-      - '*'
-    paths:
-      - 'packages/client/**'
-  pull_request:
     paths:
       - 'packages/client/**'
 defaults:
