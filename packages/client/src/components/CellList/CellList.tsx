@@ -8,10 +8,11 @@ import useActions from '../../hooks/useActions';
 
 const CellList: React.FC = () => {
   const cells = useSelector(cellsSelector);
-  const { fetchCells, saveCells } = useActions();
+  const { fetchCells } = useActions();
 
   React.useEffect(() => {
     fetchCells();
+    // eslint-disable-next-line
   }, []);
 
   React.useEffect(() => {}, []);
