@@ -14,5 +14,5 @@ services:
       - traefik.http.routers.jsbookpad_server.entrypoints=web-secure
 
 networks:
-  traefik-internal
+  traefik-internal:
     external: true
