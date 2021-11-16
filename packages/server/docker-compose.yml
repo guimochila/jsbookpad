@@ -10,7 +10,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=public
-      - traefik.http.routers.jsbookpad_server.rule=Host(`api.guimochila.com/jsbookpad`)
+      - traefik.http.routers.jsbookpad_server.rule=Host(`api.guimochila.com`)&&Headers(`x-app`, `jsbookpad`)
       - traefik.http.routers.jsbookpad_server.entrypoints=web-secure
 
 networks:
