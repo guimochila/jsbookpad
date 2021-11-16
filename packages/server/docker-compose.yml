@@ -3,7 +3,6 @@ version: '3.7'
 services:
   jsbookpad_server:
     image: guimochila/jsbookpad-server
-    container_name: jsbookpad_server
     ports:
       - 4000:4000
     networks:
