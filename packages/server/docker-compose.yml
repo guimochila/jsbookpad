@@ -4,7 +4,7 @@ services:
   jsbookpad:
     image: guimochila/jsbookpad-server
     networks:
-      - traefik-internal
+      - traefik-public
     labels:
       - traefik.enable=true
       - traefik.docker.network=public
@@ -13,5 +13,5 @@ services:
       - traefik.http.routers.jsbookpad.tls=true
 
 networks:
-  traefik-internal:
+  traefik-public:
     external: true
