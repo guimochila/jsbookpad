@@ -2,14 +2,14 @@ version: '3.7'
 
 services:
   jsbookpad_server:
-  image: guimochila/jsbookpad-server
-  container_name: jsbookpad_server
-  ports:
-    - 4000:4000
-  networks:
-    - traefik-public
-  labels:
-    - traefik.enable=true
-    - traefik.docker.network=public
-    - traefik.http.routers.jsbookpad_server.rule=Host(`api.guimochila.com/jsbookpad`)
-    - traefik.http.routers.jsbookpad_server.entrypoints=web-secure
+    image: guimochila/jsbookpad-server
+    container_name: jsbookpad_server
+    ports:
+      - 4000:4000
+    networks:
+      - traefik-public
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=public
+      - traefik.http.routers.jsbookpad_server.rule=Host(`api.guimochila.com/jsbookpad`)
+      - traefik.http.routers.jsbookpad_server.entrypoints=web-secure
